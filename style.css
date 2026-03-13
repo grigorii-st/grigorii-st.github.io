@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('ttf/Hack-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('ttf/Hack-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hack';
+  src: url('ttf/Hack-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Hack';
+  src: url('ttf/Hack-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Hack', monospace;
+}
+
+a {
+  color: #b8bb26;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #81a1c1; /* Lighter blue on hover for feedback */
+}
