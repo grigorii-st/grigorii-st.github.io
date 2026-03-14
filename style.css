@@ -31,6 +31,20 @@ body {
   background-color: #121212;
   color: #f0f0f0;
   font-family: 'Hack', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+p, li, a {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 a {
@@ -40,4 +54,17 @@ a {
 
 a:hover {
   color: #81a1c1; /* Lighter blue on hover for feedback */
+}
+
+@media (max-width: 768px) {
+  /* Adjust font sizes, margins, and padding for smaller screens */
+  body {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  /* Stack navigation or sidebars vertically */
+  .sidebar, .nav {
+    width: 100%;
+  }
 }
