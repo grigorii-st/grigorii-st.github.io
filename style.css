@@ -40,12 +40,16 @@ p, li, a {
   margin-bottom: 1rem;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
+body, article, .container {
+  max-width: 65ch; /* ~65 characters per line */
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 a {
   color: #b8bb26;
@@ -55,6 +59,7 @@ a {
 a:hover {
   color: #81a1c1; /* Lighter blue on hover for feedback */
 }
+
 
 @media (max-width: 768px) {
   /* Adjust font sizes, margins, and padding for smaller screens */
