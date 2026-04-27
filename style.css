@@ -40,12 +40,15 @@ p, li, a {
   margin-bottom: 1rem;
 }
 
-body, article, img, .container {
+body, article, .container {
   max-width: 65ch; /* ~65 characters per line */
   margin: 0 auto;
   padding: 0 1rem;
 }
-
+img {
+  max-width: 100%;
+  height: auto;
+}
 html {
   scroll-behavior: smooth;
 }
