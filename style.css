@@ -40,7 +40,7 @@ p, li, a {
   margin-bottom: 1rem;
 }
 
-body, article, .container {
+body, article, img, .container {
   max-width: 65ch; /* ~65 characters per line */
   margin: 0 auto;
   padding: 0 1rem;
